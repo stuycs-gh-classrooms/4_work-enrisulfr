@@ -23,6 +23,16 @@ fill(#FA0D15);
 circle(696, 365, 10);
 circle(596, 365, 10);
 
+line (100, 50, 200, 100);
+line (200, 100, 300, 200);
+fill (100);
+rect(95, 50, 5, 500);
+arc (100, 560, 5, 20, 0, 3*PI/2);
+fill(#FEFF1C);
+triangle(230, 600, 120, 620,190, 690);
+triangle(210, 645, 240, 620, 210, 690);
+
+
 fill(0);
 arc(399, 389, 500, 500, 0, PI, CHORD);
 fill(50);
@@ -61,3 +71,9 @@ noFill();
 arc(420, 165, 50, 30, PI+QUARTER_PI/4, PI+PI);
 noFill();
 arc(380, 195, 50, 30, 0, HALF_PI+QUARTER_PI);
+
+strokeWeight(5);
+line(650, 427, 650, 472);
+
+ fill(#FFF700);
+circle(900,0,250);
